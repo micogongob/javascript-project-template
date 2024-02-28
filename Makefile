@@ -1,5 +1,10 @@
 RUN_NPM ?= npm
 
+envfile ?= .env.example
+
+.env:
+	cp -f $(envfile) .env
+
 install:
 	$(RUN_NPM) install
 
