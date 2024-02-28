@@ -9,7 +9,9 @@ describe('GreeterService', () => {
 
   describe('greet', () => {
     it('success', () => {
-      expect(service.greet()).toBe('Hello there, Gandalf-san');
+      expect(service.greet()).toEqual({
+        message: 'Hello there, Gandalf-san'
+      });
     });
   });
 });

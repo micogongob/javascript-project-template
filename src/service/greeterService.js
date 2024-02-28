@@ -2,7 +2,9 @@
 
 class GreeterService {
   greet() {
-    return `${process.env.GREETING}, ${process.env.PERSON}`;
+    return {
+      message: `${process.env.GREETING}, ${process.env.PERSON}`
+    };
   }
 }
 
