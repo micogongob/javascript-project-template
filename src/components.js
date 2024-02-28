@@ -1,5 +1,3 @@
-'use strict';
-
-const { GreeterService } = require("./service/greeterService");
+const { GreeterService } = require('./service/greeterService');
 
 exports.greeterService = new GreeterService();

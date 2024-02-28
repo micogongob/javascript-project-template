@@ -1,5 +1,4 @@
-'use strict';
-
+/* eslint-disable class-methods-use-this */
 class GreeterService {
   greet() {
     return {
