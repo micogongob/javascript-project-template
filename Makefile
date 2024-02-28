@@ -14,3 +14,9 @@ run: start
 
 test:
 	$(RUN_NPM) test
+
+lint:
+	$(RUN_NPM) run lint
+
+fmt:
+	$(RUN_NPM) run fmt
