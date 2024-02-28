@@ -1,2 +1,1 @@
-# javascript-project-starter
-
+# javascript-project-template
