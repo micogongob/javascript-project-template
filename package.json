@@ -1,0 +1,11 @@
+{
+    "name": "javascript-project-template",
+    "version": "0.0.1-dev",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
