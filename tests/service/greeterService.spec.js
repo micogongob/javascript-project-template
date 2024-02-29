@@ -1,4 +1,4 @@
-const { GreeterService } = require("../../src/service/greeterService");
+const GreeterService = require("../../src/service/greeterService");
 
 describe('GreeterService', () => {
   let service;

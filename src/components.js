@@ -1,3 +1,7 @@
-const { GreeterService } = require('./service/greeterService');
+const GreeterService = require('./service/greeterService');
 
-exports.greeterService = new GreeterService();
+const greeterService = new GreeterService();
+
+module.exports = {
+  greeterService
+};

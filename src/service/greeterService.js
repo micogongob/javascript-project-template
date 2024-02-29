@@ -7,4 +7,4 @@ class GreeterService {
   }
 }
 
-exports.GreeterService = GreeterService;
+module.exports = GreeterService;
