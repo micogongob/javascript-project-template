@@ -1,13 +1,15 @@
 {
     "name": "javascript-project-template",
     "version": "0.0.1-dev",
+    "type": "module",
     "scripts": {
         "start": "node -r dotenv/config src/index.js",
-        "test": "jest --setupFiles dotenv/config",
+        "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --setupFiles dotenv/config",
         "lint": "eslint src",
         "fmt": "eslint src --fix"
     },
     "devDependencies": {
+        "cross-env": "^7.0.3",
         "dotenv": "^16.4.5",
         "eslint": "^8.57.0",
         "eslint-config-airbnb": "^19.0.4",

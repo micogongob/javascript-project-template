@@ -1,7 +1,9 @@
-const GreeterService = require('./service/greeterService');
+import GreeterService from './services/GreeterService.js';
 
 const greeterService = new GreeterService();
 
-module.exports = {
+const components = {
   greeterService
 };
+
+export { components as default, greeterService };

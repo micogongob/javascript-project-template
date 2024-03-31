@@ -1,3 +1,3 @@
-const { greeterService } = require('./components');
+import { greeterService } from './components.js';
 
 console.log(greeterService.greet());

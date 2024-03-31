@@ -1,4 +1,4 @@
-const GreeterService = require("../../src/service/greeterService");
+import GreeterService from '../../src/services/GreeterService.js';
 
 describe('GreeterService', () => {
   let service;
